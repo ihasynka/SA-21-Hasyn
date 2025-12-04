@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luma candles</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="fixed-top-bar">
+      <div class="ribbon-banner">
+        <p class="font-ribbon">
+          Виготовляємо свічки під замовлення. Термін виготовлення 1-4 дні.
+        </p>
+      </div>
+
+      <header class="header">
+        <div class="logo">
+          <a href="#" class="logo">
+            <span class="logo-main">LUMA</span>
+            <span class="logo-sub">Candles</span>
+          </a>
+        </div>
+
+        <nav class="main-nav">
+          <a href="#">Головна</a>
+          <a href="#about">Про нас</a>
+          <a href="#catalog">Каталог</a>
+          <a href="#master-classes">Майстер-класи</a>
+          <a href="#contacts">Контакти</a>
+        </nav>
+
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#">Головна</a></li>
+            <li><a class="menu__item" href="#about">Про нас</a></li>
+            <li><a class="menu__item" href="#catalog">Каталог</a></li>
+            <li>
+              <a class="menu__item" href="#master-classes">Майстер-класи</a>
+            </li>
+            <li><a class="menu__item" href="#contacts">Контакти</a></li>
+          </ul>
+        </div>
+      </header>
+    </div>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <video class="bg-video-mobile" autoplay muted loop playsinline>
+          <source src="video/hero-background_Q9fBr5KO.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-content-wrapper">
+          <div class="hero-logo-large">
+            <span class="logo-main-large">LUMA</span>
+            <span class="logo-sub-large">Candles</span>
+          </div>
+
+          <div class="hero-cta-box">
+            <p class="hero-cta-p">Вітаємо у світі затишку та свічок!</p>
+
+            <button class="button">
+              Перейти до каталогу
+              <div class="icon">
+                <svg
+                  height="24"
+                  width="24"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M0 0h24v24H0z" fill="none"></path>
+                  <path
+                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-us">
+        <div class="about-flex-container">
+          <div class="about-text-content">
+            <h2 class="h2-about">Про нас</h2>
+            <p class="p-about">
+              Ласкаво просимо до LUMA - майстерні свічок ручної роботи, де кожен
+              виріб створений з любов'ю та увагою до деталей. Наші свічки - це
+              поєднання тепла, затишку та естетики, які наповнюють дім особливою
+              атмосферою.
+            </p>
+            <p class="p-about">
+              Ми використовуємо тільки натуральний соєвий віск та якісні
+              ароматизатори, щоб гарантувати безпечність і приємне горіння.
+              Кожна свічка заливається вручну, проходить уважний контроль і стає
+              маленьким витвором мистецтва.
+            </p>
+          </div>
+
+          <div class="about-assortment">
+            <h3 class="h3-about-assortment">Наш асортимент:</h3>
+
+            <div class="assortment-cards-grid">
+              <div class="assortment-card card-dark">
+                <h4 class="h4-about">Декоративні свічки</h4>
+                <p class="p-about">
+                  Для акценту в інтер'єрі та затишку у вашому будинку.
+                </p>
+              </div>
+
+              <div class="assortment-card card-light">
+                <h4 class="h4-about">Ароматичні свічки</h4>
+                <p class="p-about">
+                  Наповнять простір ніжними та стійкими ароматами.
+                </p>
+              </div>
+
+              <div class="assortment-card card-light">
+                <h4 class="h4-about">Святкові свічки</h4>
+                <p class="p-about">
+                  Різні оригінальні свічки для особливих подій та моментів.
+                </p>
+              </div>
+
+              <div class="assortment-card card-dark">
+                <h4 class="h4-about">Набори</h4>
+                <p class="p-about">
+                  Готові композиції з кількох свічок у стильному пакуванні.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog-section">
+        <div class="heading-full-width-bg">
+          <h3 class="h3-heading-full-width-bg">Новинки</h3>
+        </div>
+
+        <div class="products-grid-container">
+          <button class="carousel-arrow left-arrow"><</button>
+          <button class="carousel-arrow right-arrow">></button>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img
+                src="img/coffeesmell.png"
+                alt="Набір свічок з запахом кави"
+              />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Набір свічок із запахом кави</p>
+                  <span class="article">Артикул: SL-657</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">1050.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="img/vanillawood.png" alt="Свічка Vannila Wood" />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Свічка Vannila Wood</p>
+                  <span class="article">Артикул: SL-658</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">320.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="img/herbalmix.png" alt="Набір свічок Herbal Mix" />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Набір свічок Herbal Mix</p>
+                  <span class="article">Артикул: SL-659</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">680.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="img/cozynight.png" alt="Свічка Cozy Night" />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Свічка Cozy Night</p>
+                  <span class="article">Артикул: SL-660</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">320.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="promo-blocks">
+          <div class="promo-block">
+            <div class="image-wrapper1">
+              <img src="img/Форма.png" alt="Свічки різних форм" />
+            </div>
+
+            <div class="promo-content1">
+              <h3 class="h3-promo">Свічки різної форми</h3>
+              <p class="p-promo">Декор, що оживає у світлі вогню</p>
+              <button class="button-promo">
+                Дізнатись більше
+                <div class="icon-promo">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <div class="image-wrapper2">
+              <img src="img/форма 2.png" alt="Свічки різних форм" />
+            </div>
+          </div>
+
+          <div class="promo-block">
+            <div class="promo-content2">
+              <h3 class="h3-promo">Оптовий прайс</h3>
+              <p class="p-promo">від LUMA</p>
+              <button class="button-promo">
+                Дізнатись більше
+                <div class="icon-promo">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+            <div class="image-wrapper3">
+              <img src="img/Опт (2).png" alt="Оптовий прайс" />
+            </div>
+          </div>
+
+          <div class="promo-block">
+            <div class="image-wrapper4">
+              <img src="img/аксесуари .png" alt="Стильні аксесуари" />
+            </div>
+
+            <div class="promo-content3">
+              <h3 class="h3-promo">Стильні аксесуари</h3>
+              <p class="p-promo">для ваших свічок</p>
+              <button class="button-promo">
+                Дізнатись більше
+                <div class="icon-promo">
+                  <svg
+                    height="24"
+                    width="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                      d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+
+            <div class="image-wrapper5">
+              <img src="img/accessories2.png" alt="Стильні аксесуари" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="master-classes" class="master-classes">
+        <div class="heading-full-width-bg">
+          <h3 class="h3-heading-full-width-bg">Майстер-класи</h3>
+        </div>
+
+        <div class="products-grid-container">
+          <button class="carousel-arrow left-arrow"><</button>
+          <button class="carousel-arrow right-arrow">></button>
+
+          <div class="products-grid">
+            <div class="product-card">
+              <img
+                src="img/onlinecourse.png"
+                alt="Онлайн-курс: створення свічок"
+              />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Онлайн-курс: створення свічок</p>
+                  <span class="article">Артикул: SL-854</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">1200.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img
+                src="img/basicmaster.png"
+                alt="Базовий онлайн майстер-клас"
+              />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Базовий онлайн майстер-клас</p>
+                  <span class="article">Артикул: SL-858</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">650.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="img/decorate.png" alt="Декорування та форми" />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Декорування та форми</p>
+                  <span class="article">Артикул: SL-859</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">540.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img
+                src="img/masterclass4.png"
+                alt="Онлайн-заняття у прямому ефірі"
+              />
+
+              <div class="card-footer">
+                <div class="title-article">
+                  <p class="title">Онлайн-заняття у прямому ефірі</p>
+                  <span class="article">Артикул: SL-860</span>
+                </div>
+                <div class="price-stock-buy">
+                  <div class="price-stock">
+                    <span class="price">400.00 ГРН</span>
+                    <span class="in-stock">В наявності</span>
+                  </div>
+                  <button class="button-buy">
+                    Купити
+                    <div class="icon-buy">
+                      <svg
+                        viewBox="0 0 16 16"
+                        class="bi bi-cart2"
+                        fill="currentColor"
+                        height="16"
+                        width="16"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+      <div class="container-footer-flex">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <h4 class="logo-main">LUMA</h4>
+            <p class="logo-sub">Candles</p>
+          </div>
+          <span
+            >Свічки ручної роботи з натуральних матеріалів. Доставка по всій
+            Україні.</span
+          >
+        </div>
+
+        <div class="footer-col">
+          <h5 class="footer-fonts-title">Контакти</h5>
+          <a href="tel:+380671234567">+38 (067) 123 45 67</a>
+          <a href="mailto:luma.candles@gmail.com">luma.candles@gmail.com</a>
+          <a href="#form" class="modal-trigger-link-style">
+            Замовити зворотній зв'язок
+          </a>
+          <a href="">Instagram</a>
+          <a href="">FaceBook</a>
+        </div>
+
+        <div class="footer-col">
+          <h5 class="footer-fonts-title">Інформація</h5>
+          <a href="#about">Про нас</a>
+          <a href="#catalog">Каталог</a>
+          <a href="">Доставка та оплатаг</a>
+          <a href="">Політика конфіденційності</a>
+        </div>
+      </div>
+      <div id="form" class="wrapper">
+        <div class="form">
+          <p class="form-title">Зв'яжіться з нами</p>
+          <form action="/action_page.php" target="_blank" class="action">
+            <label for="fname">Ім'я:</label>
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Введіть своє ім'я"
+              class="input_field"
+            /><br />
+            <label for="lname">Прізвище:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Введіть своє прізвище"
+              class="input_field"
+            /><br />
+            <label for="email">Пошта:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="name@gmail.com"
+              class="input_field"
+            /><br />
+            <label for="pwd">Пароль:</label>
+            <input
+              type="password"
+              id="pwd"
+              name="pwd"
+              placeholder="****************"
+              class="input_field"
+            /><br />
+            <label for="comment">Напишіть коментар до замовлення</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="5"
+              cols="33"
+              class="input_field_comment"
+              placeholder="Я хочу замовити..."
+            ></textarea>
+            <br />
+            <div class="checkbox-block">
+              <input type="checkbox" id="rules" name="rules" required />
+              <label for="rules">
+                Я підтверджую, що ознайомився та погоджуюсь з
+                <a href="#" target="_blank">усіма правилами спільноти</a>
+              </label>
+            </div>
+
+            <br />
+            <input type="submit" value="Зв'язатися" class="button-submit" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
