@@ -1194,6 +1194,9 @@ body {
   .footer-col span {
     text-align: center;
   }
+  .form {
+    min-width: 450px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1460,6 +1463,9 @@ body {
   .footer-col a {
     font-size: 10px;
   }
+  .form {
+    min-width: 420px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1690,7 +1696,7 @@ body {
   }
 
   .h2-about {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .about-assortment {
@@ -1702,18 +1708,18 @@ body {
   }
 
   .h4-about {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .p-about {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .assortment-card {
     flex-basis: calc(50% - 13px);
     padding: 12px;
     border-radius: 8px;
-    min-height: 110px;
+    min-height: 75px;
   }
 
   /* КАТАЛОГ */
@@ -1911,6 +1917,6 @@ body {
     font-size: 8px;
   }
   .form {
-    min-width: 425px;
+    min-width: 300px;
   }
 }
